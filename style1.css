@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+div div{
+    height :200px;
+    width :200px;
+    background-color:yellow;
+    border: 10px solid orangered;
+
+}
+  
+.box2 {
+    border-left: 210px solid orangered;  
+}
+.box3 {
+    border-left: 410px solid orangered;
+      }
+.box4 {        
+    border-left: 610px solid orangered;
+    }
+div.container {
+    width: 830px;
+    height: 870px;
+    border: 10px solid transparent;
+    display: inline-block;
+    padding-right: 2px; 
+}
+        

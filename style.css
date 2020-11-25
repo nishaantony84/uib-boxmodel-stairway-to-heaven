@@ -19,8 +19,9 @@ div.box2 {
     position: relative;
     left: 420px;
     background-color: chartreuse;
-    margin: 20px,20px;   
+    margin: 20px,20px; 
 }
+    
 div.box3 {
     width :200px;
     height :200px;
