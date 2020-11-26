@@ -4,47 +4,39 @@ html {
   box-sizing: border-box;
   padding: 0; 
 }
-div.box1 {
+div.box {
     width :200px;
     height :200px;
     background-color: chartreuse;
+    margin-right: 0px;
+}
+div.box1 {
     margin-right: 0px;
     position: relative;
     left: 640px;    
 }
 div.box2 {
-    width :200px;
-    height :200px;
+    margin-left: 420px;
     border:10px solid gray;
-    position: relative;
-    left: 420px;
-    background-color: chartreuse;
-    margin: 20px,20px; 
-}
+    /*position: relative;
+    left: 420px;*/
+    }
     
 div.box3 {
-    width :200px;
-    height :200px;
-    position: relative;
-    left: 220px; 
-    background-color: chartreuse;
-    margin: 20px,20px;
-}
+    margin-left: 220px;
+    /*position: relative;
+    left: 220px; */
+    }
 div.box4 {
-    width :200px;
-    height :200px;
-    position: relative;
-    left: 0px;
+    /*position: relative;
+    left: 0px;*/
     border:10px solid gray;
-    background-color: chartreuse;
-    margin: 20px,20px;
     margin-bottom: 0px;  
 }
 div.container {
     width: 840px;
     height: 840px;
     border: 10px solid pink;
-    border-style: solid; 
     display: inline-block;
     margin: 0;  
 }
